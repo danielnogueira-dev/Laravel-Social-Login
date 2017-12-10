@@ -4,6 +4,10 @@ Docker utilizando o compose, arquivo de configuração com variáveis de ambient
 
 Laravel versão 5.5.22
 
+Configuração do Socialite: https://laravel.com/docs/5.5/socialite
+
+Obs: Popular as variáveis CLIENT_ID, CLIENT_SECRET e CALLBACK_URL dos respectivos provedores de login no arquivo .env do Laravel.
+
 # Configuração Container Nginx
 
 1. Exposição de portas
@@ -62,9 +66,9 @@ Laravel versão 5.5.22
 
 1. Clone o repositório usando o comando:
 
-   git clone https://github.com/danielnogueira-dev/Docker-Compose-Nginx-Php-Laravel-Mysql
+   git clone https://github.com/danielnogueira-dev/Laravel-Social-Login.git
 
-2. Entre na pasta Docker-Compose-Nginx-Php-Laravel-Mysql e copie o arquivo env-example para .env.
+2. Entre na pasta Laravel-Social-Login e copie o arquivo env-example para .env.
 
    cp env-example .env
 
