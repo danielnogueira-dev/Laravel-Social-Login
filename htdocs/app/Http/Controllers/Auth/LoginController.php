@@ -43,9 +43,9 @@ class LoginController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function redirectToProvider()
+    public function redirectToProvider($provedor)
     {
-        return Socialite::driver('github')->redirect();
+        return Socialite::driver($provedor)->redirect();
     }
 
     /**
@@ -53,9 +53,9 @@ class LoginController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function handleProviderCallback()
+    public function handleProviderCallback($provedor)
     {
-        $user = Socialite::driver('github')->user();
+        $user = Socialite::driver($provedor)->user();
 
         var_dump($user->token);
 		var_dump($user->name);

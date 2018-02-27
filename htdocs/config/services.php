@@ -41,4 +41,21 @@ return [
     'redirect' => env('GITHUB_CALLBACK_URL'),       // Your GitHub Callback Url',
 	],
 
+    'google' => [
+        'client_id' => env('GOOGLE_CLIENT_ID'),         // Your Google Client ID
+        'client_secret' => env('GOOGLE_CLIENT_SECRET'), // Your Google Client Secret
+        'redirect' => env('GOOGLE_CALLBACK_URL'),       // Your Google Callback Url',
+    ],
+
+    'facebook' => [
+        'client_id' => env('FACEBOOK_CLIENT_ID'),         // Your Facebook Client ID
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'), // Your Facebook Client Secret
+        'redirect' => env('FACEBOOK_CALLBACK_URL'),       // Your Facebook Callback Url',
+    ],
+
+    'twitter' => [
+        'client_id' => env('TWITTER_CLIENT_ID'),         // Your Twitter Client ID
+        'client_secret' => env('TWITTER_CLIENT_SECRET'), // Your Twitter Client Secret
+        'redirect' => env('TWITTER_CALLBACK_URL'),       // Your Twitter Callback Url',
+    ],
 ];

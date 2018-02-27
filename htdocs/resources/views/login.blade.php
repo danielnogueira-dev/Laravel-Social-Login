@@ -20,7 +20,7 @@
 			<h3 class="kpx_authTitle">Logins</h3>
 			<div class="row kpx_row-sm-offset-3 kpx_socialButtons">
 				<div class="col-xs-6 col-sm-6">
-					<a href="#" class="btn btn-lg btn-block kpx_btn-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+					<a href="/login/facebook" class="btn btn-lg btn-block kpx_btn-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
 						<i class="fa fa-facebook fa-2x"></i>
 						<span class="hidden-xs"></span>
 					</a>
@@ -29,7 +29,7 @@
 			<br>
 			<div class="row kpx_row-sm-offset-3 kpx_socialButtons">
 				<div class="col-xs-6 col-sm-6">
-					<a href="#" class="btn btn-lg btn-block kpx_btn-google" data-toggle="tooltip" data-placement="top" title="Google">
+					<a href="/login/google" class="btn btn-lg btn-block kpx_btn-google" data-toggle="tooltip" data-placement="top" title="Google">
 						<i class="fa fa-google fa-2x"></i>
 						<span class="hidden-xs"></span>
 					</a>
@@ -38,7 +38,7 @@
 			<br>
 			<div class="row kpx_row-sm-offset-3 kpx_socialButtons">
 				<div class="col-xs-6 col-sm-6">
-					<a href="#" class="btn btn-lg btn-block kpx_btn-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+					<a href="/login/twitter" class="btn btn-lg btn-block kpx_btn-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
 						<i class="fa fa-twitter fa-2x"></i>
 						<span class="hidden-xs"></span>
 					</a>
